@@ -1,0 +1,298 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+body {
+    background-image: url("images/image1.jpg");
+    background-color: #000000 ;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -50px;
+    background-size: 1600px 1000px;
+    position: relative;
+
+   }
+
+.topnat {
+       overflow: hidden;
+       text-align: center; /* Center the links */
+
+       margin-top: 50vh;
+   }
+
+.topnat a {
+       display: inline-block;
+       color: red;
+       text-align: center;
+       padding: 20px 30px;
+       text-decoration: none;
+       font-size: 30px;
+       border: 2px solid red;
+       background-color: #f8f8f8;
+       border-radius: 10px
+   }
+
+.topnat a:hover {
+       text-decoration: underline;
+       color: black;
+   }
+.topnav {
+    overflow: hidden;
+
+  }
+
+  /* Style the links inside the navigation bar */
+.topnav a {
+
+    float: left;
+    color: #f2f2f2;
+
+    margin-left: 0px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+
+  /* Add a color to the active/current link */
+.topnav a.active {
+    color: #a91a0d;
+  }
+
+.box{
+    margin-top: 50vh;
+    margin-left: 300px;
+    position: absolute;
+    width:900px
+
+}
+.box h1{
+    margin-top: -90vh;
+    margin-left: 50px;
+    padding-left: 250px;
+    font-size: 3rem;
+    color: #a91a0d  ;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-display: auto;
+
+}
+.box h2{
+    padding: 0%;
+    border:0cm;
+    margin: 0%;
+    margin-top: 40px;
+    padding-left: 250px;
+    padding-bottom: 10px;
+    font-size: 3rem;
+    color: #ffffff  ;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-display: auto;
+}
+.index-form{
+    display: flex;
+}
+.admin-form{
+    padding-left: 100px;
+
+}
+.user-form{
+    padding-left: 100px;
+}
+.admin-form button {
+    width:200px;
+    height:200px;
+    border-radius: 4px;
+  }
+
+.admin-form input[type=submit] {
+    background-color: #a91a0d;
+    width:200px;
+    font-size: 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    height:100px;
+    opacity: 0.9;
+    border-radius: 25px;
+  }
+.admin-form input[type=submit]:hover{
+    opacity: 1;
+}
+.user-form input[type=submit] {
+    background-color:#a91a0d;
+    width:200px;
+    height:100px;
+    font-size: 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    opacity: 0.9;
+    border-radius: 25px;
+}
+.user-form input[type=submit]:hover{
+    opacity: 1;
+}
+.LoginForm{
+    background-color: white;
+    margin-top: 230px;
+    margin-left: 500px;
+    width: 500px;
+    height: 250px;
+    border-radius: 15px;
+}
+.LoginForm h2{
+    font-size: 2rem;
+    margin-left: 140px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+.LoginForm input[type=email]{
+    margin: 10px;
+    margin-top: 0px;
+    margin-left: 40px;
+    width:200px;
+}
+.LoginForm label{
+    margin-left: 60px;
+    padding-left: 0px;
+    width:200px;
+}
+.LoginForm input[type=password]{
+    margin: 10px;
+    width:200px;
+}
+.LoginForm input[type=submit]{
+    margin: 10px;
+    width:200px;
+}
+.LoginForm input[type=submit]{
+    margin: 10px;
+    margin-left: 140px;
+    width:200px;
+}
+.AdvSearchBox{
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 500px;
+    width: 500px;
+    height: 670px;
+    border-radius: 15px;
+    display: block;
+}
+.AdvSearchBox h3{
+    padding-top: 20px;
+    margin: 0px;
+    padding-left: 100px;
+    font-size: 2rem;
+}
+.AdvSearchBox h4{
+    font-display: bold;
+}
+.CustomerForm{
+    padding-top: 0px;
+    margin: 0px;
+    padding-left: 50px;
+    display: inline-block;
+}
+.CarInfoForm{
+    padding-top: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.ReservForm{
+    padding-top: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.SearchForm{
+    padding-top: 0px;
+    margin-bottom: 5px;
+    margin: 0px;
+    display: inline-block;
+}
+.SearchForm{
+    padding-top: 0px;
+    margin-bottom: 5px;
+    margin: 0px;
+    display: inline-block;
+}
+.AdvSearchBox input[type=submit]{
+    margin-top: 5px;
+    margin-left: 100px;
+    width:200px;
+}
+.Managepayments{
+    background-color: white;
+    margin-top: 160px;
+    margin-left: 100px;
+    opacity: 0.8;
+    width: 500px;
+    height: 150px;
+    border-radius: 15px;
+    display: block;
+}
+.Managepayments h2{
+    padding-left: 95px;
+    padding-top: 15px;
+    opacity: 1;
+}
+.Managepayments h3{
+    padding-left: 155px;
+    opacity: 1;
+    padding-top: 0px;
+    font-size: large;
+}
+.Managepayments input[type=submit]{
+    margin-left: 180px;
+    opacity: 1;
+    margin-top: 15px;
+}
+.ManageBox{
+    background-color: white;
+    opacity: 0.8;
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 500px;
+    height: 250px;
+    border-radius: 15px;
+    display: block;
+}
+.ManageBox h3{
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    display: flex;
+    opacity: 1;
+}
+.ManageBox label{
+    padding-left: 60px;
+    display: flex;
+    opacity: 1;
+}
+
+.ManageBox input[type=submit]{
+    opacity: 1;
+    margin-left: 220px;
+    margin-top: 0px;
+}
+.ManageBox input[type=submit]{
+    opacity: 1;
+    margin-left: 220px;
+    margin-top: 0px;
+}
+
+.sd-res{
+    opacity: 1;
+    display: inline-block;
+    margin-left: 100px;
+}
+.ed-res{
+    opacity: 1;
+    display: inline-block;
+    margin-left: 100px;
+}

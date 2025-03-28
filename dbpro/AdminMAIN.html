@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ADMIN PAGE</title>
+<link rel="stylesheet" href="sidemenu.css">
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href=adminsearch.php>Search</a>
+  <a href=manageres.php> Manage Resrvations</a>
+  <a href=managecar.php>Manage Cars</a>
+  <a href=managecust.php>Manage Customers</a>
+  <a href=managepay.php>Manage Payments</a>
+  <a href=manageoffice.php>Manage Offices</a>
+  <a class="logout" href=mainpage.php>LOG-OUT</a>
+</div>
+<h2 class="red-text">WELCOME ADMIN!</h2>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+</body>
+</html>

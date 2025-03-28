@@ -1,0 +1,166 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+body {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/user.jpg') center/cover no-repeat fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-position-x: center;
+    background-position-y: -50px;
+    background-size: 1600px 1000px;
+    position: relative;
+}
+
+.topnat {
+
+    overflow: hidden;
+    background-color: #a91a0d;
+    padding: 10px;
+    text-align: center;
+}
+
+.topnat a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.topnav {
+    overflow: hidden;
+    margin-top: 10px;
+
+  }
+
+  /* Style the links inside the navigation bar */
+.topnav a {
+
+    float: left;
+    color: #f2f2f2;
+    margin-left: 15px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+.topnav a.logout:hover{  //shakl l link aw  l button wna btna2el lama agi a2of 3lih bl mouse kda
+  text-decoration: underline;
+}
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(33, 33, 33);
+    color: rgb(255, 255, 255);
+  }
+
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #a91a0d;
+  }
+.Signupform{
+        margin-top: 150px;
+        margin-left: 600px;
+        width:fit-content;
+        border-style: solid;
+        border-radius: 25px;
+        border-width: 20px;
+        height: fit-content;
+        border-color: rgba(255, 255, 255, 0.3);
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+.Signupform h2{
+        text-align: center;
+        color: #a91a0d
+            }
+
+
+
+.Signupform label{
+        padding-left:0px;
+        margin-left:0px;
+    }
+
+
+
+.LoginForm {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.LoginForm h2 {
+    text-align: center;
+    color: #a91a0d;
+}
+
+.LoginForm label {
+    color: #333;
+    display: block;
+    margin: 10px 0;
+}
+
+.LoginForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-login {
+    background-color: #a91a0d;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: #86160b;
+}
+
+.CRes{
+    opacity: 0.8;
+    margin-top: 40px;
+    margin-left: 50px;
+    width:fit-content;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 20px;
+    border-color: #ffffff;
+    background-color: #ffffff;
+}
+
+.CRes h3{
+    margin: 0%;
+    padding: 0%;
+}
+
+.USERSIUP {
+    text-align: center;
+}
+
+.USERSIUP label {
+    color: #555;
+}
+
+.USERSIUP a {
+    color: #a91a0d;
+    text-decoration: none;
+}
+
+.USERSIUP a:hover {
+    text-decoration: underline;
+}
